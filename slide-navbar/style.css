@@ -1,0 +1,64 @@
+:root {
+  --side-menu-width: 200px;
+}
+body {
+  margin: 0;
+}
+#main-container {
+  width: 100%;
+  height: 100vh;
+  transition: transform 0.3s ease, width 0.3s ease;
+}
+#main-container.show-side-menu {
+  transform: translateX(var(--side-menu-width));
+  width: calc(100% - var(--side-menu-width));
+}
+
+nav {
+  position: fixed;
+  background-color: #50d0d0;
+  width: var(--side-menu-width);
+  height: 100%;
+  transform: translateX(-100%);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 24px;
+  margin: 0;
+}
+
+nav ul li {
+  margin-bottom: 16px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+header {
+  background-color: #50d0d0;
+  color: #fff;
+  height: 75px;
+  align-items: center;
+}
+#menu-toggle {
+  margin: 11.5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#menu-toggle img {
+  height: 45px;
+  width: 45px;
+}
+
+section {
+  padding: 2rem;
+}
+section h1 {
+  margin: 0;
+}
