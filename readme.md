@@ -6,7 +6,8 @@ Daily mini projects to review VanilaJS
 
 **Only with HTML5, Javascript, CSS**
 
-| No. |   Project    | Description                          |
-| --- | :----------: | :----------------------------------- |
-| 01  | Simple Modal | Simple Modal UI with overlay         |
-| 02  | Slide Navbar | Simple drawer menu toggled by button |
+| No. |    Project    | Description                                    |
+| --- | :-----------: | :--------------------------------------------- |
+| 01  | Simple Modal  | Simple Modal UI with overlay                   |
+| 02  | Slide Navbar  | Simple drawer menu toggled by button           |
+| 03  | Toast Message | 3-second popup Toast Message with close button |
