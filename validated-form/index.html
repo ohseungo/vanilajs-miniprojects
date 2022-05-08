@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Validated form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-flex">
+      <div id="container">
+        <h1>Register Me</h1>
+        <form id="register-form">
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" />
+            <small>Error message here</small>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+            <small>Error message here</small>
+          </div>
+          <div class="form-group">
+            <label for="password-confirm">Confirm Password</label>
+            <input type="password" id="password-confirm" />
+            <small>Error message here</small>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
